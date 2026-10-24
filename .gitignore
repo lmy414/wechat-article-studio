@@ -1,0 +1,15 @@
+node_modules/
+dist/
+data/
+outputs/
+.private/
+.env
+.env.*
+!.env.example
+web/public/library/uploads/
+tools/.shots/
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+*.swp

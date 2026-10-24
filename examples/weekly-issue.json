@@ -1,0 +1,73 @@
+{
+  "id": "sample-001",
+  "number": "001",
+  "title": "示例周刊 · 把这一周留成片单",
+  "label": "示例刊",
+  "date": "2026.01.07",
+  "period_label": "2026.01.01 — 01.07",
+  "metric_basis": "cumulative",
+  "basis_label": "示例累计数据",
+  "deck": "三个虚构作品，展示周刊与作品集的排版。",
+  "intro": "这是随工具提供的虚构示例。作品、作者、BV 号和指标均用于测试，没有对应的真实榜单。",
+  "authors": 3,
+  "cover": "cover.svg",
+  "works": [
+    {
+      "bvid": "BV1111111111",
+      "rank": 1,
+      "score": 300,
+      "title": "窗边的一次观察",
+      "author": "示例创作者 1",
+      "category": "动画",
+      "summary": "这是一条虚构的作品介绍，用来展示作者、图片、指标和出处的排版方式。",
+      "published_date": "2026.01.01",
+      "observed_at": "2026-01-07 12:00:00",
+      "timestamp": "01:00",
+      "cover": "BV1111111111.svg",
+      "metrics": {
+        "view": 1234,
+        "like": 120,
+        "coin": 34,
+        "favorite": 56
+      }
+    },
+    {
+      "bvid": "BV2222222222",
+      "rank": 2,
+      "score": 200,
+      "title": "把一段旋律留到周末",
+      "author": "示例创作者 2",
+      "category": "音乐",
+      "summary": "这是一条虚构的作品介绍，用来展示作者、图片、指标和出处的排版方式。",
+      "published_date": "2026.01.01",
+      "observed_at": "2026-01-07 12:00:00",
+      "timestamp": "02:00",
+      "cover": "BV2222222222.svg",
+      "metrics": {
+        "view": 2468,
+        "like": 240,
+        "coin": 68,
+        "favorite": 112
+      }
+    },
+    {
+      "bvid": "BV3333333333",
+      "rank": 3,
+      "score": 100,
+      "title": "三个镜头的小故事",
+      "author": "示例创作者 3",
+      "category": "剧情",
+      "summary": "这是一条虚构的作品介绍，用来展示作者、图片、指标和出处的排版方式。",
+      "published_date": "2026.01.01",
+      "observed_at": "2026-01-07 12:00:00",
+      "timestamp": "03:00",
+      "cover": "BV3333333333.svg",
+      "metrics": {
+        "view": 3702,
+        "like": 360,
+        "coin": 102,
+        "favorite": 168
+      }
+    }
+  ]
+}

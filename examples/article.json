@@ -1,0 +1,91 @@
+{
+  "document": {
+    "id": "sample-article",
+    "templateId": "generic",
+    "title": "把一篇文章，排成自己的样子",
+    "subtitle": "公众号排版工作台 · 开源示例",
+    "blocks": [
+      {
+        "id": "intro-7l916ry-mvmse0sn",
+        "componentId": "base.intro",
+        "props": {
+          "label": "开始使用",
+          "text": "从左侧选择组件，在画布中调整顺序，再修改文字和图片。文章会保存在本机。"
+        }
+      },
+      {
+        "id": "section-wzbru9l-mvmse0sn",
+        "componentId": "base.section",
+        "props": {
+          "title": "先写清楚，再安排版式"
+        }
+      },
+      {
+        "id": "paragraph-zppo6uo-mvmse0sn",
+        "componentId": "base.paragraph",
+        "props": {
+          "text": "每个内容块都有自己的用途。正文承载信息，配图补充细节，引用保留声音。先把内容放对位置，再决定需要强调什么。",
+          "emphasis": "内容"
+        }
+      },
+      {
+        "id": "image-le8jl8c-mvmse0sn",
+        "componentId": "base.image",
+        "props": {
+          "src": "sample-cover",
+          "alt": "几何山峰与粉色圆日",
+          "caption": "项目自绘示例，可随 MIT 代码一起使用。"
+        }
+      },
+      {
+        "id": "section-ykjdw15-mvmse0sn",
+        "componentId": "base.section",
+        "props": {
+          "title": "交付前看一次完整预览"
+        }
+      },
+      {
+        "id": "paragraph-2v4efjl-mvmse0sn",
+        "componentId": "base.paragraph",
+        "props": {
+          "text": "检查标题、图片和长段落。复制富文本后，在公众号后台检查图片转存与手机预览，再由你确认发布。",
+          "emphasis": ""
+        }
+      },
+      {
+        "id": "note-izsxtd4-mvmse0sn",
+        "componentId": "base.note",
+        "props": {
+          "title": "本地优先",
+          "text": "编辑数据、上传图片和导出文件留在本机。软件代码使用 MIT 协议，导入的内容仍遵循原权利人的授权。"
+        }
+      },
+      {
+        "id": "divider-zaswg78-mvmse0sn",
+        "componentId": "base.divider",
+        "props": {
+          "label": "END"
+        }
+      }
+    ],
+    "related": [],
+    "settings": {
+      "showFollowBanner": false,
+      "showRelated": false,
+      "showBrandFooter": false
+    },
+    "brandFooter": "",
+    "revision": 1,
+    "updatedAt": "2026-01-01T00:00:00+08:00"
+  },
+  "images": [
+    {
+      "id": "sample-cover",
+      "label": "开源示例插画",
+      "src": "/library/sample/cover.svg",
+      "categoryId": "sample",
+      "width": 1200,
+      "height": 675
+    }
+  ]
+}
